@@ -1,36 +1,31 @@
 import React, { Component } from 'react'
+import './WelcomeApp.css'
 
 export default class WelcomeApp extends Component {
-  constructor (props){
+  constructor(props) {
     super(props)
-    this.state={
-        status: "Subscribed"
+  
+    this.state = {
+       status:"Subscribe"
     }
-    this.onSubscribeClick = this.onSubscribeClick.bind(this)
   }
   
     
-  onSubscribeClick()  {
-    this.setState =(prevState=>({
-    //  if(this.state.status === 'Subscribe'){
-    //   status : 'Subscribed'
-    //  }
-    //  else{
-    //   status : 'Subscribe'
-    //  }
-      status : prevState.status === 'Subscribed' ? "Subscribe":'Subscribed'
-    }))
-    // this.setState({
-    //   status: "Subscribed"
-    // })
-    console.log(this.state.status)
+  onSubscribeClick(){
+    console.log("sushma soujanya")
+    this.setState({
+      status : this.state.status === 'Subscribe' ? 'Subscribed':'Subscribe'
+    })
   }
   render(){
    return (
-      <div>
-        <h1>Welcome</h1>
+      <div className="main-container">
+        <>
+        <h1 className = "heading">Welcome</h1>
         <h3>Thank you!Happy Learning</h3>
-        <button onClick={this.onSubscribeClick}>{this.state.status}</button>
+        <button onClick={()=>(this.onSubscribeClick())}  className="btn-styling">{this.state.status}</button>
+        </>
+        
       </div>
     )
   }

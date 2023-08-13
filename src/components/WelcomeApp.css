@@ -1,0 +1,17 @@
+.heading{
+    color:#f0bb03;
+    font-size: 32px;
+    font-family: 'Roboto';
+    font-weight: bold;
+}
+.btn-styling{
+    padding: 5px;
+    border-radius: 5px;
+    background-color: White;
+    color:#1e293b;
+}
+.main-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
