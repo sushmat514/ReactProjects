@@ -1,0 +1,22 @@
+.main-background{
+    background-color:  #ffc2a0;
+    height: 100vh;
+    /* text-align: center; */
+    /* margin : 10px,auto; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+}
+.todo-container{
+    background-color: #ffffff;
+    border-radius: 10px;
+    width: 80%;
+    /* height: 20%; */
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
