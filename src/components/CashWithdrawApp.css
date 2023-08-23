@@ -1,0 +1,65 @@
+.main-background{
+    padding: 10px;
+    background-color: #150b3e;
+    width: 25%;
+    border-radius: 20px;
+    padding: 20px;
+
+}
+.profile{
+    color:#7c3aed;
+    background-color: #c7d2fe;
+    font-size:18px;
+    padding: 20px;
+    width: 50px;
+    height: 50px;
+    border-radius: 120px;
+    padding-top: 15px;
+}
+.profile-name{
+    font-size: 23px;
+    margin-left: 20px;
+    color: #c7d2fe;
+}
+.profile-section{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.balance-money-container{
+    /* display: flex;
+    flex-direction: column; 
+    align-items: left; */
+    margin-left: auto;
+}
+.balance-decript{
+    color:#585076;
+    font-size:  23px;
+    font-family: 'Roboto';
+}
+.amount{
+    color: #d4d2db;
+    font-size: 32px;
+}
+.descript{
+    font-size: 15px;
+    color:#585076;
+    font-family: 'Roboto';
+}
+.balance-container{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+}
+.button-styling{
+    background-color: #382f5a;
+    border-style: solid;
+    border-width: 1px;
+    border-color:#c4c4c4;
+    border-radius: 5px;
+    width: 40%;
+    color: #c4c4c4;
+    margin: 10px;
+    outline: none;
+    cursor: pointer;
+}
