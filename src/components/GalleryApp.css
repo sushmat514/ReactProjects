@@ -1,0 +1,13 @@
+.gallery-img{
+    width: 50%;
+    height: 20%;
+}
+.main-container{
+    text-align: center;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.thumbnail-container{
+    display: flex;
+    flex-direction: row;
+}
