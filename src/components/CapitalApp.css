@@ -1,0 +1,24 @@
+.main-container{
+    background-color: #93c5fd;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
+
+.capital-container{
+    background-color: #ffffff;
+    border-radius: 5px;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    /* border-top:  */
+}
+h1{
+    font-family: 23px;
+    font-family: 'Roboto';
+    font-weight: bold;
+
+}
